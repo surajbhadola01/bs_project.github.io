@@ -1,0 +1,63 @@
+
+	@media(min-width:768px)
+	{
+		.desktop-menu{
+            display:block;
+            float: right;	
+        }
+
+        .desktop-menu li{
+			display:inline-block;	
+        }
+	}
+
+	@media(max-width:768px)
+	{
+		.mobile-menu{
+            display:block;	
+            float: right;		
+        }	
+        .mobile-menu li{
+			display:inline-block;	
+        }	
+        .about-title-des-br{
+            display: none;
+        }
+        .about-icon-col{
+            padding-left: 10px;
+        }
+        .about-title-def{
+            text-align: justify;
+        }
+        .about-pic{
+            margin-top: 0;
+        }
+        .teacher-about{
+            padding-top: 20px;
+        }
+        .teacher-pic-box-1{
+            padding: 20px;
+            padding-bottom: 0;
+        }
+        .teacher-pic-box-2{    
+            padding: 20px;
+        }
+        .service-row-2{
+            padding-top: 30px;
+        }
+        .service-row-3{
+            display: none;
+        }
+        .choose-us-head h1{
+            font-size: 30px;
+        }
+        .choose-us-row-1{
+            padding-left: 30px;
+        }
+        
+        .last-footer h1{
+            font-size: 20px;
+        }
+    }
+    
+   

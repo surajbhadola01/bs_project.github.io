@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.test{
+    border: 1px solid red;
+}
+.logo{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px black; 
+}
+.top-nav{
+    box-shadow: 0px 8px 10px 0px #ddd;
+    
+}
+#home{
+    background: #fff;
+    margin-top: 40px;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-bottom: 0 !important;
+}
+#home h1{
+    font-family: 'Fredoka One', cursive;
+    margin-top: 20px;
+}
+.main-font{
+    font-family: 'Fredoka One', cursive;
+}
+.service-header{
+    padding-bottom: 40px;
+}
+.service-icon{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 50%;
+    font-size: 30px;
+    padding-top: 7px;
+    border: 1px solid #ccc; 
+   
+}
+#service{
+    margin-bottom: 0 !important;
+}
+#service span{
+    letter-spacing: 1px;
+}
+
+.top-menu .nav-link.active {
+    background: #fff;
+    box-shadow: 0px 0px 5px grey;
+    border-bottom: 3px solid black;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.client-pic{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px #ddd;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+#clients{
+    background-color: #fff;
+}
+.client-pic img{
+    border-radius: 50%;
+}
+.client-icon{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    padding-top: 5px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.client-icon:hover{
+    background: black;
+    color: #fff;
+    
+}
+.carousel-indicators{
+    bottom: -55px;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 5px;
+    border-radius: 50%;
+    background: #000;
+}
+
+#pricing{
+    background: #fff;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+}
+
+
+#ui-datepicker-div{
+    z-index: 999 !important;
+}
+.custom-control-label::before{
+    background: black;
+}
+.custom-control-input:checked ~ .custom-control-label::before{
+    background: red;
+    border-color:red;
+}
+.custom-control-input:focus ~ .custom-control-label::before{
+    box-shadow: none !important;
+}
+.custom-range::-webkit-slider-thumb{
+    background-color: red;
+}
+
+
+/*----------------------responsive coding----------------------------*/
+@media(max-width:768px){
+    #home p{
+        text-align: justify;
+    }
+
+    .service-col{
+        margin-bottom: 40px;
+    }
+}
